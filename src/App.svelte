@@ -1,16 +1,17 @@
 <script lang="ts">
   import WebsiteTitle from "./lib/WebsiteTitle.svelte";
   import Blog from "./lib/blog/Blog.svelte";
-  import ButtonBar from "./lib/buttonbar/ButtonBar.svelte";
+    import ButtonBar from "./lib/buttonbar/ButtonBar.svelte";
 </script>
 
 <main>
-  <ButtonBar />
-  <br />
-  <br />
-  <WebsiteTitle title="News, Auftritte und Blog" visible={true} size={1} />
+  <ButtonBar></ButtonBar>
 
-  <Blog />
+    <WebsiteTitle title="AGBgames" size={1} visible={true}></WebsiteTitle>
+
+    <WebsiteTitle title="Blog" visible={true} size={1} />
+
+    <Blog />
 </main>
 
 <style>
