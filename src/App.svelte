@@ -5,29 +5,6 @@
 </script>
 
 <main>
-  <WebsiteTitle title="DJ und Producer" visible={true} size={1} />
-  <WebsiteTitle
-    title="Deep House - Progressive House - Tech House"
-    visible={true}
-    size={1}
-  />
-
-  <div class="gfg">
-    <img src="robert.jpg" alt="" />
-    <div class="text-container">
-      <h1
-        style="font-family: 'Times New Roman', Times, serif; font-size:xx-large"
-      >
-        DJ Robert Lenz
-      </h1>
-      <h1
-        style="font-family: 'Times New Roman', Times, serif; font-size:x-large"
-      >
-        DJ und Producer
-      </h1>
-    </div>
-  </div>
-
   <ButtonBar />
   <br />
   <br />
